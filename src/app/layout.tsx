@@ -34,10 +34,9 @@ export default function RootLayout({
           enableSystem
           disableTransitionOnChange
         >
-          <main className="flex min-h-screen flex-col items-center">
+          <main className="flex min-h-screen flex-col">
             {children}
-            <Analytics />{' '}
-            {/* ^^ remove this if you are not deploying to vercel. See more at https://vercel.com/docs/analytics  */}
+            <Analytics />
           </main>
         </ThemeProvider>
       </body>
