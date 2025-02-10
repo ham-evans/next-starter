@@ -1,8 +1,8 @@
+import './globals.css'
 import { GeistSans } from 'geist/font/sans'
 import ThemeProvider from '@/providers/ThemeProvider'
 import NextTopLoader from 'nextjs-toploader'
 import { Analytics } from '@vercel/analytics/react'
-import './globals.css'
 
 const defaultUrl = process.env.VERCEL_URL
   ? `https://${process.env.VERCEL_URL}`
@@ -26,7 +26,7 @@ export default function RootLayout({
       style={{ colorScheme: 'dark' }}
       suppressHydrationWarning
     >
-      <body className="bg-background text-foreground">
+      <body className="bg-red-500">
         <NextTopLoader showSpinner={false} height={2} color="#2acf80" />
         <ThemeProvider
           attribute="class"

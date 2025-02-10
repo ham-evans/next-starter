@@ -1,7 +1,13 @@
 /** @type {import('tailwindcss').Config} */
+
 const config = {
   darkMode: ['class'],
-  content: ['./src/**/*.{ts,tsx}'],
+  content: [
+    './pages/**/*.{ts,tsx}',
+    './components/**/*.{ts,tsx}',
+    './app/**/*.{ts,tsx}',
+    './src/**/*.{ts,tsx}',
+  ],
   prefix: '',
   theme: {
     container: {
@@ -12,8 +18,12 @@ const config = {
       },
     },
     extend: {
+      backgroundColor: {
+        'test-red': '#ff0000',
+      },
       colors: {
         border: 'hsl(var(--border))',
+
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
         background: 'hsl(var(--background))',
@@ -47,11 +57,11 @@ const config = {
           foreground: 'hsl(var(--card-foreground))',
         },
         chart: {
-          '1': 'hsl(var(--chart-1))',
-          '2': 'hsl(var(--chart-2))',
-          '3': 'hsl(var(--chart-3))',
-          '4': 'hsl(var(--chart-4))',
-          '5': 'hsl(var(--chart-5))',
+          1: 'hsl(var(--chart-1))',
+          2: 'hsl(var(--chart-2))',
+          3: 'hsl(var(--chart-3))',
+          4: 'hsl(var(--chart-4))',
+          5: 'hsl(var(--chart-5))',
         },
       },
       borderRadius: {
@@ -83,7 +93,8 @@ const config = {
       },
     },
   },
-  plugins: [import('tailwindcss-animate')],
+  // eslint-disable-next-line @typescript-eslint/no-require-imports
+  plugins: [require('tailwindcss-animate')],
 }
 
 export default config
