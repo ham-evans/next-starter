@@ -15,7 +15,7 @@ export const signUp = async ({
     email,
     password,
     options: {
-      emailRedirectTo: `${origin}/api/auth/callback`,
+      emailRedirectTo: `${process.env.NEXT_PUBLIC_URL}/api/auth/callback`,
     },
   })
 

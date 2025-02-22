@@ -18,9 +18,6 @@ const config = {
       },
     },
     extend: {
-      backgroundColor: {
-        'test-red': '#ff0000',
-      },
       colors: {
         border: 'hsl(var(--border))',
 

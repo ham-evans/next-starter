@@ -17,10 +17,10 @@ import {
   FormMessage,
 } from '@/components/ui/form'
 import { useForm } from 'react-hook-form'
-import { login } from '@/lib/utils/auth/login'
+import { signUp } from '@/lib/utils/auth/signup'
 import { toast } from 'sonner'
 
-const loginSchema = z.object({
+const signupSchema = z.object({
   email: z.string().email('Please enter a valid email'),
   password: z
     .string()
@@ -28,28 +28,28 @@ const loginSchema = z.object({
     .max(100, 'Password is too long'),
 })
 
-type LoginFormValues = z.infer<typeof loginSchema>
+type SignupFormValues = z.infer<typeof signupSchema>
 
-export function LoginForm({
+export function SignupForm({
   className,
   ...props
 }: React.ComponentPropsWithoutRef<'div'>) {
-  const form = useForm<LoginFormValues>({
-    resolver: zodResolver(loginSchema),
+  const form = useForm<SignupFormValues>({
+    resolver: zodResolver(signupSchema),
     defaultValues: {
       email: '',
       password: '',
     },
   })
 
-  const onSubmit = async (data: LoginFormValues) => {
+  const onSubmit = async (data: SignupFormValues) => {
     try {
-      await login(data)
+      await signUp(data)
     } catch (error) {
       console.error(error)
       toast.error('Something went wrong')
     }
-    toast.success('Login successful')
+    toast.success('Signup successful')
   }
 
   return (
