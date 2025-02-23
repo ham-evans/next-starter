@@ -67,7 +67,10 @@ const MarketingNav = () => {
     <section className="py-4">
       <div className="container">
         <nav className="flex items-center justify-between">
-          <div className="flex items-center gap-2">
+          <Link
+            href={routes.marketing.home}
+            className="flex items-center gap-2"
+          >
             <Image
               src="https://shadcnblocks.com/images/block/block-1.svg"
               alt="logo"
@@ -76,7 +79,7 @@ const MarketingNav = () => {
               className="w-8"
             />
             <span className="text-lg font-semibold">Shadcnblocks.com</span>
-          </div>
+          </Link>
           {/* Desktop */}
           <NavigationMenu className="hidden lg:block">
             <NavigationMenuList>

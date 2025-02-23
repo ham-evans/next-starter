@@ -4,6 +4,8 @@ import { Feature } from '@/components/home/feature'
 import { TrustedBy } from '@/components/home/trustedBy'
 import Faq from '@/components/home/faq'
 import { Cta } from '@/components/home/cta'
+import Testimonial from '@/components/home/testimonial'
+
 export default async function Index() {
   return (
     <div className="flex w-full flex-1 flex-col items-center gap-20">
@@ -11,6 +13,7 @@ export default async function Index() {
       <TrustedBy />
       <Feature />
       <Faq />
+      <Testimonial />
       <Cta />
     </div>
   )
