@@ -3,7 +3,8 @@ export const routes = {
     login: '/login',
     signup: '/signup',
   },
-  main: {
+  marketing: {
     home: '/',
+    pricing: '/pricing',
   },
 }
