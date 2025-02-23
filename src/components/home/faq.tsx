@@ -7,34 +7,34 @@ import {
 
 const faqs = [
   {
-    question: 'Can I cancel at anytime?',
+    question: 'What technologies does this template use?',
     answer:
-      'Yes, you can cancel anytime no questions are asked while you cancel but we would highly appreciate if you will give us some feedback.',
+      'Our template is built with Next.js 14, TypeScript, Tailwind CSS, Shadcn UI components, Supabase for backend, and Stripe for payments. It includes everything you need to launch a SaaS application.',
   },
   {
-    question: 'My team has credits. How do we use them?',
+    question: 'Do I need to pay for the included services?',
     answer:
-      'Once your team signs up for a subscription plan. This is where we sit down, grab a cup of coffee and dial in the details.',
+      'The template is compatible with free tiers of all services (Supabase, Stripe, Vercel) to start. As your application grows, you may need to upgrade to paid tiers based on usage.',
   },
   {
-    question: "How does Acme's pricing work?",
+    question: 'Is technical support included?',
     answer:
-      'Our subscriptions are tiered. Understanding the task at hand and ironing out the wrinkles is key.',
+      'We provide detailed documentation and examples. For direct support, join our Discord community where our team and other developers can help you.',
   },
   {
-    question: 'How secure is Acme?',
+    question: 'Can I use this for commercial projects?',
     answer:
-      'Protecting the data you trust to Acme is our first priority. This part is really crucial in keeping the project in line to completion.',
+      'Yes, you can use this template for both personal and commercial projects. Each purchase includes a commercial license.',
   },
   {
-    question: 'How do I get access to a theme I purchased?',
+    question: 'Are updates included?',
     answer:
-      "If you lose the link for a theme you purchased, don't panic! We've got you covered. You can login to your account, tap your avatar in the upper right corner, and tap Purchases. If you didn't create a login or can't remember the information, you can use our handy Redownload page, just remember to use the same email you originally made your purchases with.",
+      'Yes, you will receive all future updates and improvements to the template. We regularly update dependencies and add new features based on community feedback.',
   },
   {
-    question: 'Upgrade License Type',
+    question: 'What makes this different from other templates?',
     answer:
-      'There may be times when you need to upgrade your license from the original type you purchased and we have a solution that ensures you can apply your original purchase cost to the new license purchase.',
+      'Our template focuses on production-readiness with TypeScript, modern authentication, subscription management, and carefully crafted UI components. It saves weeks of setup and configuration time.',
   },
 ]
 

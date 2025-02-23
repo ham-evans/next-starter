@@ -16,8 +16,9 @@ export default function Testimonial() {
             <div className="grid items-center justify-center p-6">
               <div className="grid gap-3 lg:gap-5">
                 <p className="text-lg lg:text-xl">
-                  &ldquo;I was amazed by the quality of service. The team was
-                  professional, courteous, and efficient throughout.&ldquo;
+                  &ldquo;This template saved us weeks of development time. The
+                  TypeScript integration and Supabase setup are particularly
+                  well done.&ldquo;
                 </p>
                 <div className="flex items-center space-x-3">
                   <div className="h-10 w-10 overflow-hidden rounded-full">
@@ -27,9 +28,9 @@ export default function Testimonial() {
                     </Avatar>
                   </div>
                   <div className="text-sm font-semibold">
-                    <div>Emily Patel</div>
+                    <div>Alex Chen</div>
                     <div className="text-sm text-gray-500 dark:text-gray-400">
-                      Marketing Manager
+                      CTO, TechStart
                     </div>
                   </div>
                 </div>

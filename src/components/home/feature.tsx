@@ -20,43 +20,43 @@ interface Feature17Props {
 }
 
 const Feature = ({
-  heading = 'Our Core Features',
+  heading = 'Everything You Need',
   subheading = 'Features',
   features = [
     {
-      title: 'Performance',
+      title: 'Next.js 14',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
-      icon: <Timer className="size-4 md:size-6" />,
-    },
-    {
-      title: 'Innovation',
-      description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Built with the latest Next.js features including App Router, Server Components, and Server Actions.',
       icon: <Zap className="size-4 md:size-6" />,
     },
     {
-      title: 'Quality',
+      title: 'Type-Safe',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Fully typed with TypeScript for better development experience and fewer runtime errors.',
       icon: <ZoomIn className="size-4 md:size-6" />,
     },
     {
-      title: 'Accessibility',
+      title: 'Authentication',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Secure authentication system powered by Supabase Auth with email, social logins, and magic links.',
       icon: <PersonStanding className="size-4 md:size-6" />,
     },
     {
-      title: 'Affordability',
+      title: 'Database & API',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'PostgreSQL database and auto-generated APIs with Supabase, including real-time subscriptions.',
+      icon: <Timer className="size-4 md:size-6" />,
+    },
+    {
+      title: 'Payments',
+      description:
+        'Stripe integration for subscription management and one-time payments with webhook handling.',
       icon: <DollarSign className="size-4 md:size-6" />,
     },
     {
-      title: 'Customer Support',
+      title: 'Beautiful UI',
       description:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nesciunt, accusantium quam. Temporibus quae quos deserunt!',
+        'Polished interface with Shadcn UI components and Tailwind CSS for rapid development.',
       icon: <MessagesSquare className="size-4 md:size-6" />,
     },
   ],

@@ -21,14 +21,14 @@ interface Hero7Props {
 }
 
 const Hero = ({
-  heading = 'A Collection of Components Built With Shadcn & Tailwind',
-  description = 'Finely crafted components built with React, Tailwind and Shadcn UI. Developers can copy and paste these blocks directly into their project.',
+  heading = 'The Ultimate SaaS Starter Template',
+  description = 'Launch your next SaaS project in minutes with our production-ready template built with Next.js, Supabase, Tailwind, TypeScript, Stripe and Shadcn UI.',
   button = {
-    text: 'Discover all components',
-    url: 'https://www.shadcnblocks.com',
+    text: 'Get Started',
+    url: '#',
   },
   reviews = {
-    count: 200,
+    count: 150,
     avatars: [
       {
         src: 'https://www.shadcnblocks.com/images/block/avatar-1.webp',

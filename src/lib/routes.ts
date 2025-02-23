@@ -7,4 +7,8 @@ export const routes = {
     home: '/',
     pricing: '/pricing',
   },
+  main: {
+    dashboard: '/dashboard',
+  },
+  api: {},
 }

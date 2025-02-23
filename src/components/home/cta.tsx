@@ -16,16 +16,16 @@ interface Cta11Props {
 }
 
 const Cta = ({
-  heading = 'Ready to Get Started?',
-  description = 'Join thousands of satisfied customers using our platform to build amazing websites.',
+  heading = 'Launch Your SaaS Faster',
+  description = 'Stop spending weeks on boilerplate. Get a production-ready foundation with authentication, payments, and UI components built in.',
   buttons = {
     primary: {
       text: 'Get Started',
-      url: 'https://www.shadcnblocks.com',
+      url: '#',
     },
     secondary: {
-      text: 'Learn More',
-      url: 'https://www.shadcnblocks.com',
+      text: 'View Documentation',
+      url: '#',
     },
   },
 }: Cta11Props) => {
